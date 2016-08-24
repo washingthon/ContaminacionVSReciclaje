@@ -7,7 +7,7 @@ class Enemigo:
         self.x = x
         self.y = y
         self.imagen = imagen
-    
+    #un comentario
     def drawEnemigo (self):
         self.imagen = pygame.transform.scale(self.imagen, (50, 50))
         self.imagen.set_colorkey(WHITE)
